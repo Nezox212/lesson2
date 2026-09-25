@@ -2,11 +2,15 @@
 const firstNumber = +prompt("напишите первое число")
 const secondNumber = +prompt("напишите второе число")
 const thirdNumber = +prompt("напишите третье число")
-if(firstNumber > secondNumber && firstNumber > thirdNumber){ console.log(firstNumber + " больше чем " + secondNumber + " и " + thirdNumber); }
-else if(secondNumber > firstNumber && secondNumber > thirdNumber) {console.log(secondNumber + " больше чем " + firstNumber + " и " + thirdNumber); }
-else if (thirdNumber > firstNumber && thirdNumber > secondNumber ) {console.log(thirdNumber + " больше чем " + firstNumber + " и " + secondNumber); }
-else (console.log("Ваши числа одинаковые " + firstNumber + ", "  + secondNumber + ", " +  thirdNumber));
-
+if (firstNumber === secondNumber && secondNumber === thirdNumber) {
+    console.log("Все числа одинаковые: " + firstNumber);
+} else if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
+    console.log(firstNumber + " самое большое (или одно из равных максимумов)");
+} else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+    console.log(secondNumber + " самое большое (или одно из равных максимумов)");
+} else {
+    console.log(thirdNumber + " самое большое");
+}
 
 
 //2 Проверь, находится ли возраст в диапазоне от 18 до 60 лет включительно
@@ -63,26 +67,26 @@ else(console.log( "5. " + fifthAnswer + " неправильно): " + "        
 
 //5 Если число делится на 2 или на 7, выведи "Подходит" а иначе “Не подходит”
 const twoAndSevenNumber = +prompt("Введите число")
-if (twoAndSevenNumber % 2 === 0 && twoAndSevenNumber % 7 === 0 ) {console.log("Подходит")}
+if (twoAndSevenNumber % 2 === 0 || twoAndSevenNumber % 7 === 0 ) {console.log("Подходит")}
 else(console.log("Не подходит"))
 
 
 //6 Если сумма покупки больше 5000, предоставь скидку 10% и выведи результат, а иначе выведи саму сумму.
 const price = +prompt("Введите сумму покупки")
-if(price >= 5000){console.log("итоговая сумма со скидкой: " + price * 0.9 )}
+if(price > 5000){console.log("итоговая сумма со скидкой: " + price * 0.9 )}
 else(console.log("итоговая сумма без скидки: " + price))
 
 
 //7 Проверь, является ли символ гласной буквой (a, e, i, o, u). ( true | false )
 const letter = prompt("Введите любую английскую букву");
-if (letter === "a" || letter === "e" || letter === "o"  || letter === "i" || letter === "o") {console.log(true)}
+if (letter === "a" || letter === "e" || letter === "o"  || letter === "i" || letter === "u") {console.log(true)}
 else console.log(false)
 
 
 
 //8 Попроси у пользователя число и процент, затем вычисли данный процент от данного числа
 const number = +prompt("Введите любое число")
-const percent = prompt("Введите процент для вычисления")
+const percent = +prompt("Введите процент для вычисления")
 console.log( percent * 0.01 * number)
 
 
