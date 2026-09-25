@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="292080a8-cc6c-45e8-a81f-5ad379a0af7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="292080a8-cc6c-45e8-a81f-5ad379a0af7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="10" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,8 +141,9 @@
       <recent name="C:\Users\User\WebstormProjects\projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\projects\lesson3" />
       <recent name="C:\Users\User\WebstormProjects\projects" />
+      <recent name="C:\Users\User\WebstormProjects\projects\lesson4" />
+      <recent name="C:\Users\User\WebstormProjects\projects\lesson3" />
       <recent name="C:\Users\User\WebstormProjects\projects\lesson2" />
       <recent name="C:\Users\User\WebstormProjects\projects\lesson1" />
     </key>
@@ -184,6 +183,7 @@
       <workItem from="1790247656813" duration="79000" />
       <workItem from="1790247759292" duration="5860000" />
       <workItem from="1790315869915" duration="177000" />
+      <workItem from="1790316060861" duration="329000" />
     </task>
     <servers />
   </component>
