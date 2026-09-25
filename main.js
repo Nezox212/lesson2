@@ -34,6 +34,7 @@ else (console.log("Вход запрешен , неверный логин ил�
 
 //4 Создай тест из 5 вопросов и создай 5 констант с правильными ответами. Попроси у пользователя ввести 5 ответов на
 // всё 5 вопросов и в конце выведи количество правильных ответов пользователя
+
 const firstQuestion = "Лондон"
 const secondQuestion = "Меркурий"
 const thirdQuestion = +"60"
@@ -46,21 +47,24 @@ const thirdAnswer = +prompt("15 * 4 ?")
 const fourthAnswer = prompt("Что означает && в JS ? ")
 const fifthAnswer = +prompt("4 под корнем")
 
-if(firstQuestion == firstAnswer ){console.log("1. " + firstAnswer + " Правильно!")}
+let correctCount = 0
+
+if(firstQuestion == firstAnswer ){console.log("1. " + firstAnswer + " Правильно!"); correctCount++}
 else(console.log( "1. " + firstAnswer + " неправильно): " + "               правильный ответ:" + firstQuestion))
 
-if(secondQuestion == secondAnswer){console.log("2. " + secondAnswer + " Правильно!")}
+if(secondQuestion == secondAnswer){console.log("2. " + secondAnswer + " Правильно!"); correctCount++}
 else(console.log( "2. " + secondAnswer + " неправильно): " + "               правильный ответ:" + secondQuestion))
 
-if(thirdQuestion == thirdAnswer){console.log("3. " + thirdAnswer + " Правильно!")}
+if(thirdQuestion == thirdAnswer){console.log("3. " + thirdAnswer + " Правильно!"); correctCount++}
 else(console.log( "3. " + thirdAnswer + " неправильно): " + "               правильный ответ:" + thirdQuestion))
 
-if(fourthQuestion == fourthAnswer){console.log("4. " + fourthAnswer + " Правильно!")}
+if(fourthQuestion == fourthAnswer){console.log("4. " + fourthAnswer + " Правильно!"); correctCount++}
 else(console.log( "4. " + fourthAnswer + " неправильно): " + "               правильный ответ:" + fourthQuestion))
 
-if(fifthQuestion == fifthAnswer){console.log("5. " + fifthAnswer + " Правильно!")}
+if(fifthQuestion == fifthAnswer){console.log("5. " + fifthAnswer + " Правильно!"); correctCount++}
 else(console.log( "5. " + fifthAnswer + " неправильно): " + "               правильный ответ:" + fifthQuestion))
 
+console.log("Результат: " + correctCount + "/5")
 
 
 
