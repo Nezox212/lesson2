@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292080a8-cc6c-45e8-a81f-5ad379a0af7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000338630607698" />
-      <entry key="S2" value="1.135653671485226" />
-      <entry key="S5" value="1.449751500549298" />
-      <entry key="S10" value="1.6706351471174905" />
-      <entry key="S30" value="1.875310430300654" />
-      <entry key="S60" value="1.9357173633164042" />
-      <entry key="M2" value="2.0927803712938955" />
-      <entry key="M5" value="11.114329365014129" />
-      <entry key="M10" value="51.37508379877961" />
-      <entry key="M15" value="102.08925019599467" />
-      <entry key="M30" value="250.7004578409131" />
-      <entry key="H1" value="484.2521608401593" />
-      <entry key="H2" value="820.2070520199751" />
-      <entry key="H4" value="1193.9372627129246" />
-      <entry key="D1" value="1766.2563247734297" />
-      <entry key="W1" value="1903.651625802732" />
+      <entry key="MS100" value="1.0000005040254787" />
+      <entry key="MS500" value="1.055016188347697" />
+      <entry key="S2" value="1.4843417322911021" />
+      <entry key="S5" value="1.7869442785084004" />
+      <entry key="S10" value="2.327127517823802" />
+      <entry key="S30" value="5.1929439213639075" />
+      <entry key="S60" value="9.08641504012344" />
+      <entry key="M2" value="16.299508461026313" />
+      <entry key="M5" value="32.17356644517936" />
+      <entry key="M10" value="48.99633332234957" />
+      <entry key="M15" value="64.8916873253761" />
+      <entry key="M30" value="123.0638327264734" />
+      <entry key="H1" value="269.9106137768932" />
+      <entry key="H2" value="595.4078911042216" />
+      <entry key="H4" value="1137.1778254775036" />
+      <entry key="D1" value="2386.635040089438" />
+      <entry key="W1" value="2766.4064599001895" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="9.180038053060029E-279" />
-      <entry key="S5" value="6.360122727886351E-112" />
-      <entry key="S10" value="2.98266395106773E-56" />
-      <entry key="S30" value="4.637317540384324E-19" />
-      <entry key="S60" value="9.58001059053871E-10" />
-      <entry key="M2" value="4.587900115896395E-5" />
-      <entry key="M5" value="0.04141767966984602" />
-      <entry key="M10" value="0.7060738172653684" />
-      <entry key="M15" value="2.348899962175411" />
-      <entry key="M30" value="9.683199522416531" />
-      <entry key="H1" value="22.1033971757757" />
-      <entry key="H2" value="35.74997104676868" />
-      <entry key="H4" value="47.200528379727565" />
-      <entry key="D1" value="61.398666001774636" />
-      <entry key="W1" value="64.46637856285399" />
+      <entry key="MS500" value="1.0106835528059402E-204" />
+      <entry key="S2" value="1.0026602539359713E-51" />
+      <entry key="S5" value="3.985305445973638E-21" />
+      <entry key="S10" value="6.315845525852089E-11" />
+      <entry key="S30" value="4.289665195164669E-4" />
+      <entry key="S60" value="0.025503158697052556" />
+      <entry key="M2" value="0.2157501717715498" />
+      <entry key="M5" value="0.8146915482776468" />
+      <entry key="M10" value="1.4372036618236739" />
+      <entry key="M15" value="2.1225842946590774" />
+      <entry key="M30" value="4.823966820513962" />
+      <entry key="H1" value="11.266551154624374" />
+      <entry key="H2" value="24.87080967187032" />
+      <entry key="H4" value="45.558402556801006" />
+      <entry key="D1" value="87.22202052925122" />
+      <entry key="W1" value="98.87197443307502" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248456" />
-      <entry key="MS500" value="0.9934273912594457" />
-      <entry key="S2" value="1.133546713163107" />
-      <entry key="S5" value="1.4485600796503506" />
-      <entry key="S10" value="1.669916857575494" />
-      <entry key="S30" value="1.87503313567324" />
-      <entry key="S60" value="1.9355731276903367" />
-      <entry key="M2" value="2.092734953739275" />
-      <entry key="M5" value="11.152974918100469" />
-      <entry key="M10" value="52.06526420590685" />
-      <entry key="M15" value="104.41016711921122" />
-      <entry key="M30" value="260.33981868724584" />
-      <entry key="H1" value="506.3110407597015" />
-      <entry key="H2" value="855.9217917197888" />
-      <entry key="H4" value="1241.1142624637791" />
-      <entry key="D1" value="1827.6497541269214" />
-      <entry key="W1" value="1968.1172140297754" />
+      <entry key="MS100" value="0.0011140700987211474" />
+      <entry key="MS500" value="0.29030489032949336" />
+      <entry key="S2" value="1.1400506012792857" />
+      <entry key="S5" value="1.619700367589569" />
+      <entry key="S10" value="2.206465058044911" />
+      <entry key="S30" value="5.0865608813203576" />
+      <entry key="S60" value="9.025177186137787" />
+      <entry key="M2" value="16.441730596971954" />
+      <entry key="M5" value="32.929411348580814" />
+      <entry key="M10" value="50.38890568059602" />
+      <entry key="M15" value="66.97539500718874" />
+      <entry key="M30" value="127.85189403147797" />
+      <entry key="H1" value="281.13877528684446" />
+      <entry key="H2" value="620.2395144420858" />
+      <entry key="H4" value="1182.702905299749" />
+      <entry key="D1" value="2473.8471590976073" />
+      <entry key="W1" value="2865.276849203976" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -125,6 +124,7 @@
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/WebstormProjects/projects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -141,6 +141,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\projects\lesson3" />
+      <recent name="C:\Users\User\WebstormProjects\projects" />
+      <recent name="C:\Users\User\WebstormProjects\projects\lesson2" />
+      <recent name="C:\Users\User\WebstormProjects\projects\lesson1" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -170,7 +176,14 @@
       <workItem from="1789642761019" duration="233000" />
       <workItem from="1789643035583" duration="6049000" />
       <workItem from="1789720783873" duration="232000" />
-      <workItem from="1789721031815" duration="4770000" />
+      <workItem from="1789721031815" duration="6163000" />
+      <workItem from="1789988420266" duration="291000" />
+      <workItem from="1789988737145" duration="6614000" />
+      <workItem from="1790053966997" duration="5364000" />
+      <workItem from="1790059540139" duration="1223000" />
+      <workItem from="1790247656813" duration="79000" />
+      <workItem from="1790247759292" duration="5860000" />
+      <workItem from="1790315869915" duration="177000" />
     </task>
     <servers />
   </component>
